@@ -28,17 +28,14 @@ export default class ItemDetails extends Component {
                                     width={100}
                                     height={100}
                                     alt="thumbnail"
-                                    src="https://i5.walmartimages.com/asr/4104a16d-4ebb-4387-ae36-2619f3d2f232_1.
-                                    466980d10b5491837b6578303f1c4967.jpeg?odnWidth=undefined&odnHeight=undefined&
-                                    odnBg=ffffff">
+                                    src="https://i5.walmartimages.com/asr/4104a16d-4ebb-4387-ae36-2619f3d2f232_1.466980d10b5491837b6578303f1c4967.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff">
                                     </img>
                                 </Media-Left>
                                 <Media-Body>
-                                    <p>Essentials by OFM ESS-3085 Racing Style Leather Gaming Chair, Red</p>
+                                    <p>OFM Essentials Collection High-Back Racing Style Bonded Leather Gaming Chair, in Blue</p>
                                     <Row className="show-grid">
                                         <Col md={6}>
                                             <strong> {`$${this.props.price}`} </strong>
-                                            <strong> className="price-strike" {`$${this.props.price}`} </strong>
                                         </Col>
                                         <Col md={6}> Qty: 1 </Col>
                                     </Row>
